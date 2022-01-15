@@ -27,13 +27,12 @@ $OUT1.textContent = temp;
 const $OUT2 = document.querySelector(".out2");
 temp2= " ";
 
-for (k = 1; k <= 3; k++){    
-    for (i = 3; i <= 3; i++){
-        temp2 += `*_*_*_<br>`;
-    
-    }
+for (k = 1; k <= 3; k++){   
     temp2 += `${k}<br>`;
-
+    for (i = 0; i < 3; i++){
+        temp2 += "*_";
+    }
+    temp2 += `<br>`;
         }
 $OUT2.innerHTML = temp2;
 
