@@ -1,0 +1,11 @@
+.btn-1 {
+    margin-bottom: 20px;
+}
+
+.btn-3 {
+    margin-top: 20px;
+    background: yellowgreen;
+    width: 100px;
+    height: 50px;
+    border-radius: 10% 20%;
+}
